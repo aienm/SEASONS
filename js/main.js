@@ -308,10 +308,3 @@ function select_reset() {
     selectD_flag = false;
     nextbtn_flag = false;
 }
-
-
-
-
-
-
-
