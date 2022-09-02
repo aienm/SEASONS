@@ -355,6 +355,7 @@ NAME
 }
 
 .Name_textbox {
+    outline: none;
     position: absolute;
     border: 0;
     top: 310px;
@@ -612,7 +613,7 @@ Question(common)
 .flame_5,
 .flame_9 {
     border: solid 0.7px #e27fc9;
-    border-radius: 140px 140px 0 0;
+     border-radius: 140px 140px 0 0;
     border-bottom: 0;
     margin: 10px;
     margin-top: 20px;
