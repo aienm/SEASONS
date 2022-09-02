@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="SEASONSは、自身のパーソナルカラーを見つける新感覚の体験型カラー診断です。診断をもとに、あなたに似合うコスメとの出会いの場を提供します。このサイトでは体験前の診断を行います。">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qbp2ift.css">
+    <link rel="stylesheet" href="https://use.typekit.net/afp8jrs.css">
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'rcj4hoq',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+
+    <title>SEASONS</title>
+
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <section class="siteTop ">
+                <!-- 背景動画 -->
+                <div class="Top_video-area">
+                    <video class="video" poster="" webkit-playsinline playsinline muted autoplay loop>
+                        <source src="movie/bg.mp4" type="video/mp4">
+                        <p>動画を再生できる環境ではありません</p>
+                    </video>
+                </div>
+                <div class="siteTop_info">
+                    <p class="Top_subTitle">parsonal color</p>
+                    <p class="Top_mainTitle">SEASONS</p>
+                    <p class="Top_message-ja">新しい自分に出会う</p>
+                    <p class="Top_message-en">A place to encounter the &quot;new me&quot;</p>
+                    <!-- <p class="Top_logo">
+                        <img src="image/rogo.png" alt="rogo">
+                    </p> -->
+                    <!-- NEXTボタン -->
+                    <a herf="" class="Top_btn">NEXT</a>
+                    <div class="Top_outline"></div>
+                </div>
+            </section>
+
+
+
+            <section class="siteConsept">
+                <div class="siteConsept_info">
+                    <div class="Consept_bg">
+                        <p class="Consept_menu">about</p>
+                        <p class="Consept_mainTitle">SEASONS</p>
+                        <p class="Consept_mainTitle-ja">シーズンズ</p>
+                        <p class="Consept_message-en">“ONLINE TO OFFLINE”</p>
+                        <p class="Consept_message-ja">リアルとデジタルを行き来する</p>
+                        <p class="Consept_explain">SEASONSは、<br>
+                            自身のパーソナルカラーを見つける新感覚の<br>
+                            体感型カラー診断です。</p>
+                        <p class="Consept_explain2">カラー診断をもとにした、お客様に似合う<br>
+                            コスメとの出会いの場を提供します。</p>
+                        <!-- STARTボタン -->
+                        <a herf="" class="Consept_btn">START</a>
+                        <div class="Consept_outline"></div>
+                        <p class="Consept_guid">ご回答後は、
+                            <a class="Consept_Entext">FlowerHouse</a> へ<br>足をお運びください
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="siteName">
+                <div class="siteName_info">
+                    <p class="Name_text">まずは、あなたの名前を<br>教えてください</p>
+                    <form>
+                        <input class="Name_textbox" id="Nametext" name="name" type="text" maxlength="10" value=""
+                            placeholder="10文字まで" required />
+                    </form>
+                    <!-- →ボタン -->
+                    <div class="Name_btn">
+                        <div class="Name_arrow"></div>
+                        <div class="Name_btnCircle_nomal">
+                            <a herf="" class="Name_btnCircle_2_nomal" disabled></a>
+                            <a herf="" class="Name_btnCircle_1_nomal" disabled></a>
+                        </div>
+                        <div class="Name_btnCircle">
+                            <a herf="" class="Name_btnCircle_2" disabled></a>
+                            <a herf="" class="Name_btnCircle_1" disabled></a>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+        </section>
+
+
+
+        <div class="siteQuestion">
+            <section class="siteQ1">
+                <div class="siteQ1question_info">
+                    <div class="Question">
+                        <div class="Question_flame flame_1"></div>
+                        <p class="Question_nam">Q1</p>
+                        <p class="Question_text Question_text-siteQ1">肌の色は?</p>
+                        <p class="Question_progress">1/11</p>
+                        <div class="Question_border border_1"></div>
+                    </div>
+                    <div class="Question_select">
+                        <div class="Question_boxA">
+                            <div class="Question_boxA-box"></div>
+                            <p class="aicon Q1_A aicon_boxA">
+                                <img src="image/1-A.png" alt="aicon">
+                            </p>
+                            <div class="Question_boxA-selectBox"></div>
+                            <p class="Question_boxA-ans">黄色みのある<br>明るいアイボリー</p>
+                        </div>
+                        <div class="Question_boxB">
+                            <div class="Question_boxB-box"></div>
+                            <p class="aicon Q1_B aicon_boxB">
+                                <img src="image/1-B.png" alt="aicon">
+                            </p>
+                            <div class="Question_boxB-selectBox"></div>
+                            <p class="Question_boxB-ans">血色の良い<br>明るめのピンク</p>
+                        </div>
+                        <div class="Question_boxC">
+                            <div class="Question_boxC-box"></div>
+                            <p class="aicon Q1_C aicon_boxC">
+                                <img src="image/1-C.png" alt="aicon">
+                            </p>
+                            <div class="Question_boxC-selectBox"></div>
+                            <p class="Question_boxC-ans siteQ1_ansOneline">暗めのオークル系</p>
+                        </div>
+                        <div class="Question_boxD">
+                            <div class="Question_boxD-box"></div>
+                            <p class="aicon2 Q1_D aicon_boxD">
+                                <img src="image/1-D.png" alt="aicon">
+                            </p>
+                            <div class="Question_boxD-selectBox"></div>
+                            <p class="Question_boxD-ans">濃いめの肌色<br>色白のピンク系</p>
+                        </div>
+                    </div>
+                    <!-- Q1_Nextボタン -->
+                    <div class="site_nextBtn">
+                        <div class="siteQ1_nextBtn">
+                            <a herf="" class="nextBtn2-Circle siteQ1_nextBtn-Circle" disabled></a>
+                            <a herf="" class="nextBtn1-Circle siteQ1_nextBtn-Circle" disabled></a>
+                        </div>
+                    </div>
+                    <div class="site_nextBtn_nomal">
+                        <div class="siteQ1_nextBtn">
+                            <div class="nextBtn-arrow siteQ1_nextBtn-arrow"></div>
+                            <a herf="" class="nextBtn-Circle1_nomal siteQ1_nextBtn-Circle" disabled></a>
+                            <a herf="" class="nextBtn-Circle2_nomal siteQ1_nextBtn-Circle" disabled></a>
+                        </div>
+                    </div>
+                    <!-- Q1_Backボタン -->
+                    <div class="site_backBtn">
+                        <div class="siteQ1_backBtn">
+                            <div class="backBtn-arrow siteQ1_backBtn-arrow"></div>
+                            <a herf="" class="backBtn-Circle siteQ1_backBtn-Circle" disabled></a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+
+        <section class="siteQ2">
+            <div class="siteQ2question_info">
+                <div class="Question">
+                    <div class="Question_flame flame_2"></div>
+                    <p class="Question_nam">Q2</p>
+                    <p class="Question_text Question_text-siteQ2">日焼けすると、どうなる?</p>
+                    <p class="Question_progress">2/11</p>
+                    <div class="Question_border border_2"></div>
+                </div>
+                <div class="Question_select">
+                    <div class="Question_boxA">
+                        <div class="Question_boxA-box"></div>
+                        <p class="aicon Q2_A aicon_boxA">
+                            <img src="image/2-A.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxA-selectBox"></div>
+                        <p class="Question_boxA-ans">赤くなるが<br>日焼けはしない</p>
+                    </div>
+                    <div class="Question_boxB">
+                        <div class="Question_boxB-box"></div>
+                        <div class="Question_boxB-selectBox"></div>
+                        <p class="aicon Q2_B aicon_boxB">
+                            <img src="image/2-B.png" alt="aicon">
+                        </p>
+                        <p class="Question_boxB-ans Question_boxBans-siteQ2">やや赤くなり<br>その後日焼けする</p>
+                    </div>
+                    <div class="Question_boxC">
+                        <div class="Question_boxC-box"></div>
+                        <p class="aicon Q2_C aicon_boxC">
+                            <img src="image/2-C.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxC-selectBox"></div>
+                        <p class="Question_boxC-ans">日焼けしやすく<br>元に戻りづらい</p>
+                    </div>
+                    <div class="Question_boxD">
+                        <div class="Question_boxD-box"></div>
+                        <p class="aicon Q2_D aicon_boxD">
+                            <img src="image/2-D.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxD-selectBox"></div>
+                        <p class="Question_boxD-ans Question_boxDans-siteQ2">日焼けしやすいが<br>戻るのも早い</p>
+                    </div>
+                </div>
+                <!-- Q2_Nextボタン -->
+
+                <div class="site_nextBtn">
+                    <div class="siteQ2_nextBtn">
+                        <a herf="" class="nextBtn2-Circle siteQ2_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn1-Circle siteQ2_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <div class="site_nextBtn_nomal">
+                    <div class="siteQ2_nextBtn">
+                        <div class="nextBtn-arrow siteQ2_nextBtn-arrow"></div>
+                        <a herf="" class="nextBtn-Circle1_nomal siteQ2_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn-Circle2_nomal siteQ2_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <!-- Q2_Backボタン -->
+                <div class="site_backBtn">
+                    <div class="siteQ2_backBtn">
+                        <div class="backBtn-arrow siteQ2_backBtn-arrow"></div>
+                        <a herf="" class="backBtn-Circle siteQ2_backBtn-Circle" disabled></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="siteQ3">
+            <div class="siteQ3question_info">
+                <div class="Question">
+                    <div class="Question_flame flame_3"></div>
+                    <p class="Question_nam">Q3</p>
+                    <p class="Question_text Question_text-siteQ3">髪の毛の色は?</p>
+                    <p class="Question_progress">3/11</p>
+                    <div class="Question_border border_3"></div>
+                </div>
+                <div class="Question_select">
+                    <div class="Question_boxA">
+                        <div class="Question_boxA-box"></div>
+                        <p class="aicon2 Q3_A aicon_boxA">
+                            <img src="image/3-A.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxA-selectBox"></div>
+                        <p class="Question_boxA-ans">赤みのブラウン<br>柔らかい質感の黒</p>
+                    </div>
+                    <div class="Question_boxB">
+                        <div class="Question_boxB-box"></div>
+                        <p class="aicon Q3_B aicon_boxB">
+                            <img src="image/3-B.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxB-selectBox"></div>
+                        <p class="Question_boxB-ans Question_boxBans-siteQ3">陽に当たると<br>柔らかなブラウン</p>
+                    </div>
+                    <div class="Question_boxC">
+                        <div class="Question_boxC-box"></div>
+                        <p class="aicon Q3_C aicon_boxC">
+                            <img src="image/3-C.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxC-selectBox"></div>
+                        <p class="Question_boxC-ans">深みのあるブラウン</p>
+                    </div>
+                    <div class="Question_boxD">
+                        <div class="Question_boxD-box"></div>
+                        <p class="aicon Q3_D aicon_boxD">
+                            <img src="image/3-D.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxD-selectBox"></div>
+                        <p class="Question_boxD-ans Question_boxDans-siteQ3">コシが強く艶やかで<br>はっきりした黒</p>
+                    </div>
+                </div>
+                <!-- Q3_Nextボタン -->
+                <div class="site_nextBtn">
+                    <div class="siteQ3_nextBtn">
+                        <a herf="" class="nextBtn2-Circle siteQ3_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn1-Circle siteQ3_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <div class="site_nextBtn_nomal">
+                    <div class="siteQ3_nextBtn">
+                        <div class="nextBtn-arrow siteQ3_nextBtn-arrow"></div>
+                        <a herf="" class="nextBtn-Circle1_nomal siteQ3_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn-Circle2_nomal siteQ3_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <!-- Q3_Backボタン -->
+                <div class="site_backBtn">
+                    <div class="siteQ3_backBtn">
+                        <div class="backBtn-arrow siteQ3_backBtn-arrow"></div>
+                        <a herf="" class="backBtn-Circle siteQ3_backBtn-Circle" disabled></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="siteQ4">
+            <div class="siteQ4question_info">
+                <div class="Question">
+                    <div class="Question_flame flame_4"></div>
+                    <p class="Question_nam">Q4</p>
+                    <p class="Question_text Question_text-siteQ4">髪質は?</p>
+                    <p class="Question_progress">4/11</p>
+                    <div class="Question_border border_4"></div>
+                </div>
+                <div class="Question_select">
+                    <div class="Question_boxA">
+                        <div class="Question_boxA-box"></div>
+                        <p class="aicon Q4_A aicon_boxA">
+                            <img src="image/4-A.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxA-selectBox"></div>
+                        <p class="Question_boxA-ans">髪が細め<br>柔らかい質感の黒</p>
+                    </div>
+                    <div class="Question_boxB">
+                        <div class="Question_boxB-box"></div>
+                        <p class="aicon Q4_B aicon_boxB">
+                            <img src="image/4-B.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxB-selectBox"></div>
+                        <p class="Question_boxB-ans">毛の太さは普通<br>コシハリがある</p>
+                    </div>
+                    <div class="Question_boxC">
+                        <div class="Question_boxC-box"></div>
+                        <p class="aicon Q4_C aicon_boxC">
+                            <img src="image/4-C.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxC-selectBox"></div>
+                        <p class="Question_boxC-ans">ふんわり<br>やわらかい</p>
+                    </div>
+                    <div class="Question_boxD">
+                        <div class="Question_boxD-box"></div>
+                        <p class="aicon Q4_D aicon_boxD">
+                            <img src="image/4-D.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxD-selectBox"></div>
+                        <p class="Question_boxD-ans Question_boxDans-siteQ4">毛の1本1本が<br>しっかりしている</p>
+                    </div>
+                </div>
+                <!-- Q4_Nextボタン -->
+                <div class="site_nextBtn">
+                    <div class="siteQ4_nextBtn">
+                        <a herf="" class="nextBtn2-Circle siteQ4_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn1-Circle siteQ4_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <div class="site_nextBtn_nomal">
+                    <div class="siteQ4_nextBtn">
+                        <div class="nextBtn-arrow siteQ4_nextBtn-arrow"></div>
+                        <a herf="" class="nextBtn-Circle1_nomal siteQ4_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn-Circle2_nomal siteQ4_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <!-- Q4_Backボタン -->
+                <div class="site_backBtn">
+                    <div class="siteQ4_backBtn">
+                        <div class="backBtn-arrow siteQ4_backBtn-arrow"></div>
+                        <a herf="" class="backBtn-Circle siteQ4_backBtn-Circle" disabled></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="siteQ5">
+            <div class="siteQ5question_info">
+                <div class="Question">
+                    <div class="Question_flame flame_5"></div>
+                    <p class="Question_nam">Q5</p>
+                    <p class="Question_text Question_text-siteQ5">瞳の色は?</p>
+                    <p class="Question_progress">5/11</p>
+                    <div class="Question_border border_5"></div>
+                </div>
+                <div class="Question_select">
+                    <div class="Question_boxA">
+                        <div class="Question_boxA-box"></div>
+                        <p class="aicon Q5_A aicon_boxA">
+                            <img src="image/5-A.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxA-selectBox"></div>
+                        <p class="Question_boxA-ans">明るい茶色<br>キラキラしている</p>
+                    </div>
+                    <div class="Question_boxB">
+                        <div class="Question_boxB-box"></div>
+                        <p class="aicon Q5_B aicon_boxB">
+                            <img src="image/5-B.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxB-selectBox"></div>
+                        <p class="Question_boxB-ans Question_boxBans-siteQ5">黒色<br>目力がある</p>
+                    </div>
+                    <div class="Question_boxC">
+                        <div class="Question_boxC-box"></div>
+                        <p class="aicon Q5_C aicon_boxC">
+                            <img src="image/5-C.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxC-selectBox"></div>
+                        <p class="Question_boxC-ans">深みの茶色<br>落ち着いた印象</p>
+                    </div>
+                    <div class="Question_boxD">
+                        <div class="Question_boxD-box"></div>
+                        <p class="aicon2 Q5_D aicon_boxD">
+                            <img src="image/5-D.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxD-selectBox"></div>
+                        <p class="Question_boxD-ans Question_boxDans-siteQ5">ソフトな黒色や茶色<br
+                                class="Question_boxD-anssub">優しげな印象</p>
+                    </div>
+                </div>
+                <!-- Q5_Nextボタン -->
+                <div class="site_nextBtn">
+                    <div class="siteQ3_nextBtn">
+                        <a herf="" class="nextBtn2-Circle siteQ5_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn1-Circle siteQ5_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <div class="site_nextBtn_nomal">
+                    <div class="siteQ5_nextBtn">
+                        <div class="nextBtn-arrow siteQ5_nextBtn-arrow"></div>
+                        <a herf="" class="nextBtn-Circle1_nomal siteQ5_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn-Circle2_nomal siteQ5_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <!-- Q5_Backボタン -->
+                <div class="site_backBtn">
+                    <div class="siteQ5_backBtn">
+                        <div class="backBtn-arrow siteQ5_backBtn-arrow"></div>
+                        <a herf="" class="backBtn-Circle siteQ5_backBtn-Circle" disabled></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="siteQ6">
+            <div class="siteQ6question_info">
+                <div class="Question">
+                    <div class="Question_flame flame_6"></div>
+                    <p class="Question_nam">Q6</p>
+                    <p class="Question_text Question_text-siteQ6">瞳の形は?</p>
+                    <p class="Question_progress">6/11</p>
+                    <div class="Question_border border_6"></div>
+                </div>
+                <div class="Question_select">
+                    <div class="Question_boxA">
+                        <div class="Question_boxA-box"></div>
+                        <p class="aicon Q6_A aicon_boxA">
+                            <img src="image/6-A.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxA-selectBox"></div>
+                        <p class="Question_boxA-ans">大きくてパッチリ</p>
+                        <p class=" Question_boxA-ans Question_boxA-subans">可愛らしい感じ
+                        </p>
+                    </div>
+                </div>
+                <div class="Question_boxB">
+                    <div class="Question_boxB-box"></div>
+
+                    <div class="Question_boxB-selectBox"></div>
+                    <p class="aicon Q6_B aicon_boxB">
+                        <img src="image/6-B.png" alt="aicon">
+                    </p>
+                    <p class="Question_boxB-ans Question_boxBans-siteQ6">白目と黒目の<br>コントラストが強い</p>
+                    <p class=" Question_boxB-ans Question_boxB-subans">知的な感じ</p>
+                </div>
+                <div class="Question_boxC">
+                    <div class="Question_boxC-box"></div>
+                    <p class="aicon Q6_C aicon_boxC">
+                        <img src="image/6-C.png" alt="aicon">
+                    </p>
+                    <div class="Question_boxC-selectBox"></div>
+                    <p class="Question_boxC-ans Question_boxCans-siteQ6">白目と黒目の<br>コントラストが弱い</p>
+                    <p class=" Question_boxC-ans Question_boxC-subans">穏やかな感じ</p>
+                </div>
+                <div class="Question_boxD">
+                    <div class="Question_boxD-box"></div>
+                    <p class="aicon Q6_D aicon_boxD">
+                        <img src="image/6-D.png" alt="aicon">
+                    </p>
+                    <div class="Question_boxD-selectBox"></div>
+                    <p class="Question_boxD-ans">丸くて黒目がち</p>
+                    <p class=" Question_boxD-ans Question_boxD-subans">優しい感じ
+                    </p>
+                </div>
+            </div>
+            <!-- Q6_Nextボタン -->
+            <div class="site_nextBtn">
+                <div class="siteQ6_nextBtn">
+                    <a herf="" class="nextBtn2-Circle siteQ6_nextBtn-Circle" disabled></a>
+                    <a herf="" class="nextBtn1-Circle siteQ6_nextBtn-Circle" disabled></a>
+                </div>
+            </div>
+            <div class="site_nextBtn_nomal">
+                <div class="siteQ6_nextBtn">
+                    <div class="nextBtn-arrow siteQ6_nextBtn-arrow"></div>
+                    <a herf="" class="nextBtn-Circle1_nomal siteQ6_nextBtn-Circle" disabled></a>
+                    <a herf="" class="nextBtn-Circle2_nomal siteQ6_nextBtn-Circle" disabled></a>
+                </div>
+            </div>
+            <!-- Q6_Backボタン -->
+            <div class="site_backBtn">
+                <div class="siteQ6_backBtn">
+                    <div class="backBtn-arrow siteQ6_backBtn-arrow"></div>
+                    <a herf="" class="backBtn-Circle siteQ6_backBtn-Circle" disabled></a>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="siteQ7">
+            <div class="siteQ7question_info">
+                <div class="Question">
+                    <div class="Question_flame flame_7"></div>
+                    <p class="Question_nam">Q7</p>
+                    <p class="Question_text Question_text-siteQ7">もとの唇の色は?</p>
+                    <p class="Question_progress">7/11</p>
+                    <div class="Question_border border_7"></div>
+                </div>
+                <div class="Question_select">
+                    <div class="Question_boxA">
+                        <div class="Question_boxA-box"></div>
+                        <p class="aicon3 Q7_A aicon_boxA">
+                            <img src="image/7-A.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxA-selectBox"></div>
+                        <p class="Question_boxA-ans">コーラル<br>薄ピンクベージュ</p>
+                    </div>
+                    <div class="Question_boxB">
+                        <div class="Question_boxB-box"></div>
+                        <p class="aicon3 Q7_B aicon_boxB">
+                            <img src="image/7-B.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxB-selectBox"></div>
+                        <p class="Question_boxB-ans Question_boxBans-siteQ7">薄ピンク<br>赤っぽい紫</p>
+                    </div>
+                    <div class="Question_boxC">
+                        <div class="Question_boxC-box"></div>
+                        <p class="aicon3 Q7_C aicon_boxC">
+                            <img src="image/7-C.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxC-selectBox"></div>
+                        <p class="Question_boxC-ans Question_boxCans-siteQ7">薄ベージュ<br>落ち着いたオレンジ</p>
+                    </div>
+                    <div class="Question_boxD">
+                        <div class="Question_boxD-box"></div>
+                        <p class="aicon3 Q7_D aicon_boxD">
+                            <img src="image/7-D.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxD-selectBox"></div>
+                        <p class="Question_boxD-ans Question_boxDans-siteQ7">濃いピンク<br
+                                class="Question_boxD-anssub">ダークな赤・赤紫
+                        </p>
+                    </div>
+                </div>
+                <!-- Q7_Nextボタン -->
+                <div class="site_nextBtn">
+                    <div class="siteQ7_nextBtn">
+                        <a herf="" class="nextBtn2-Circle siteQ7_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn1-Circle siteQ7_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <div class="site_nextBtn_nomal">
+                    <div class="siteQ7_nextBtn">
+                        <div class="nextBtn-arrow siteQ7_nextBtn-arrow"></div>
+                        <a herf="" class="nextBtn-Circle1_nomal siteQ7_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn-Circle2_nomal siteQ7_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <!-- Q7_Backボタン -->
+                <div class="site_backBtn">
+                    <div class="siteQ7_backBtn">
+                        <div class="backBtn-arrow siteQ7_backBtn-arrow"></div>
+                        <a herf="" class="backBtn-Circle siteQ7_backBtn-Circle" disabled></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+
+        <section class="siteQ8">
+            <div class="siteQ8question_info">
+                <div class="Question">
+                    <div class="Question_flame flame_8"></div>
+                    <p class="Question_nam">Q8</p>
+                    <p class="Question_text Question_text-siteQ8">周りからの第一印象は?</p>
+                    <p class="Question_progress">8/11</p>
+                    <div class="Question_border border_8"></div>
+                </div>
+                <div class="Question_select">
+                    <div class="Question_boxA">
+                        <div class="Question_boxA-box"></div>
+                        <p class="aicon Q8_A aicon_boxA">
+                            <img src="image/8-A.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxA-selectBox"></div>
+                        <p class="Question_boxA-ans">明るく元気<br>若々しい</p>
+                    </div>
+                    <div class="Question_boxB">
+                        <div class="Question_boxB-box"></div>
+                        <p class="aicon Q8_B aicon_boxB">
+                            <img src="image/8-B.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxB-selectBox"></div>
+                        <p class="Question_boxB-ans">優しげで爽やか<br>品がある</p>
+                    </div>
+                    <div class="Question_boxC">
+                        <div class="Question_boxC-box"></div>
+                        <p class="aicon Q8_C aicon_boxC">
+                            <img src="image/8-C.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxC-selectBox"></div>
+                        <p class="Question_boxC-ans">大人っぽく<br>落ち着いている</p>
+                    </div>
+                    <div class="Question_boxD">
+                        <div class="Question_boxD-box"></div>
+                        <p class="aicon Q8_D aicon_boxD">
+                            <img src="image/8-D.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxD-selectBox"></div>
+                        <p class="Question_boxD-ans">クールで爽やか<br>印象が強い
+                        </p>
+                    </div>
+                </div>
+                <!-- Q8_Nextボタン -->
+
+                <div class="site_nextBtn">
+                    <div class="siteQ8_nextBtn">
+                        <a herf="" class="nextBtn2-Circle siteQ8_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn1-Circle siteQ8_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <div class="site_nextBtn_nomal">
+                    <div class="siteQ8_nextBtn">
+                        <div class="nextBtn-arrow siteQ8_nextBtn-arrow"></div>
+                        <a herf="" class="nextBtn-Circle1_nomal siteQ8_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn-Circle2_nomal siteQ8_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <!-- Q8_Backボタン -->
+                <div class="site_backBtn">
+                    <div class="siteQ8_backBtn">
+                        <div class="backBtn-arrow siteQ8_backBtn-arrow"></div>
+                        <a herf="" class="backBtn-Circle siteQ8_backBtn-Circle" disabled></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="siteQ9">
+            <div class="siteQ9question_info">
+                <div class="Question">
+                    <div class="Question_flame flame_9"></div>
+                    <p class="Question_nam">Q9</p>
+                    <p class="Question_text Question_text-siteQ9">周りからの第一印象は?</p>
+                    <p class="Question_progress">9/11</p>
+                    <div class="Question_border border_9"></div>
+                </div>
+                <div class="Question_select">
+                    <div class="Question_boxA">
+                        <div class="Question_boxA-box"></div>
+                        <p class="aicon4 Q9_A aicon_boxA">
+                            <img src="image/9-A.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxA-selectBox"></div>
+                        <p class="Question_boxA-ans Question_boxDans-siteQ9">深くてコッテリした
+                        <p class="Question_boxA-ans Question_boxA-subans">アースカラー</p>
+                    </div>
+                    <div class="Question_boxB">
+                        <div class="Question_boxB-box"></div>
+                        <p class="aicon4 Q9_B aicon_boxB">
+                            <img src="image/9-B.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxB-selectBox"></div>
+                        <p class="Question_boxB-ans">温かみのある<br>ビタミンカラー</p>
+                    </div>
+                    <div class="Question_boxC">
+                        <div class="Question_boxC-box"></div>
+                        <p class="aicon4 Q9_C aicon_boxC">
+                            <img src="image/9-C.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxC-selectBox"></div>
+                        <p class="Question_boxC-ans">明るめでソフト<br>パステルカラー</p>
+                    </div>
+                    <div class="Question_boxD">
+                        <div class="Question_boxD-box"></div>
+                        <p class="aicon4 Q9_D aicon_boxD">
+                            <img src="image/9-D.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxD-selectBox"></div>
+                        <p class="Question_boxD-ans">明るめで鮮やか<br>ビビットカラー</p>
+                    </div>
+                </div>
+                <!-- Q9_Nextボタン -->
+                <div class="site_nextBtn">
+                    <div class="siteQ9_nextBtn">
+                        <a herf="" class="nextBtn2-Circle siteQ9_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn1-Circle siteQ9_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <div class="site_nextBtn_nomal">
+                    <div class="siteQ9_nextBtn">
+                        <div class="nextBtn-arrow siteQ9_nextBtn-arrow"></div>
+                        <a herf="" class="nextBtn-Circle1_nomal siteQ9_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn-Circle2_nomal siteQ9_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <!-- Q9_Backボタン -->
+                <div class="site_backBtn">
+                    <div class="siteQ9_backBtn">
+                        <div class="backBtn-arrow siteQ9_backBtn-arrow"></div>
+                        <a herf="" class="backBtn-Circle siteQ9_backBtn-Circle" disabled></a>
+                    </div>
+                </div>
+        </section>
+
+
+        <section class="siteQ10">
+            <div class="siteQ10question_info">
+                <div class="Question">
+                    <div class="Question_flame flame_10"></div>
+                    <p class="Question_nam">Q10</p>
+                    <p class="Question_text Question_text-siteQ10">どんなアクセサリーが似合う?</p>
+                    <p class="Question_progress">10/11</p>
+                    <div class="Question_border border_10"></div>
+                </div>
+                <div class="Question_select">
+                    <div class="Question_boxA">
+                        <div class="Question_boxA-box"></div>
+                        <p class="aicon Q10_A aicon_boxA">
+                            <img src="image/10-A.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxA-selectBox"></div>
+                        <p class="Question_boxA-ans">ツヤのある<br>ゴールド</p>
+                    </div>
+                    <div class="Question_boxB">
+                        <div class="Question_boxB-box"></div>
+                        <p class="aicon2 Q10_B aicon_boxB">
+                            <img src="image/10-B.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxB-selectBox"></div>
+                        <p class="Question_boxB-ans Question_boxBans-siteQ10">パール<br>シルバー</p>
+                    </div>
+                    <div class="Question_boxC">
+                        <div class="Question_boxC-box"></div>
+                        <p class="aicon Q10_C aicon_boxC">
+                            <img src="image/10-C.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxC-selectBox"></div>
+                        <p class="Question_boxC-ans siteQ10_ansOneline ">マットなゴールド</p>
+                    </div>
+                    <div class="Question_boxD">
+                        <div class="Question_boxD-box"></div>
+                        <p class="aicon2 Q10_D aicon_boxD">
+                            <img src="image/10-D.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxD-selectBox"></div>
+                        <p class="Question_boxD-ans Question_boxDans-siteQ10">ツヤのあるシルバー
+                        <p class="Question_boxD-ans Question_boxD-subans Question_boxDans-subansQ10">ブロンズ</p>
+                    </div>
+                </div>
+                <!-- Q10_Nextボタン -->
+                <div class="site_nextBtn">
+                    <div class="siteQ10_nextBtn">
+                        <a herf="" class="nextBtn2-Circle siteQ10_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn1-Circle siteQ10_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <div class="site_nextBtn_nomal">
+                    <div class="siteQ10_nextBtn">
+                        <div class="nextBtn-arrow siteQ10_nextBtn-arrow"></div>
+                        <a herf="" class="nextBtn-Circle1_nomal siteQ10_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn-Circle2_nomal siteQ10_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <!-- Q10_Backボタン -->
+                <div class="site_backBtn">
+                    <div class="siteQ10_backBtn">
+                        <div class="backBtn-arrow siteQ10_backBtn-arrow"></div>
+                        <a herf="" class="backBtn-Circle siteQ10_backBtn-Circle" disabled></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="siteQ11">
+            <div class="siteQ11question_info">
+                <div class="Question">
+                    <div class="Question_flame flame_11"></div>
+                    <p class="Question_nam">Q11</p>
+                    <p class="Question_text Question_text-siteQ11">洋服で得意なベース色は?</p>
+                    <p class="Question_progress">11/11</p>
+                    <div class="Question_border border_11"></div>
+                </div>
+                <div class="Question_select">
+                    <div class="Question_boxA">
+                        <div class="Question_boxA-box"></div>
+                        <p class="aicon5 Q11_A aicon_boxA">
+                            <img src="image/11-A.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxA-selectBox"></div>
+                        <p class="siteQ11_boxA-ans">アイボリー<br>ベージュ<br>ブラウン</p>
+                    </div>
+                    <div class="Question_boxB">
+                        <div class="Question_boxB-box"></div>
+                        <div class="Question_boxB-selectBox"></div>
+                        <p class="aicon5 Q11_B aicon_boxB">
+                            <img src="image/11-B.png" alt="aicon">
+                        </p>
+                        <p class="siteQ11_boxB-ans">オフホワイト<br>ライトグレー</p>
+                        <p class="siteQ11_boxB-ans Question_boxBans-siteQ11">ネイビー</p>
+                    </div>
+                    <div class="Question_boxC">
+                        <div class="Question_boxC-box"></div>
+                        <p class="aicon5 Q11_C aicon_boxC">
+                            <img src="image/11-C.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxC-selectBox"></div>
+                        <p class="siteQ11_boxC-ans">カーキ<br>キャメル</p>
+                        <p class="siteQ11_boxC-ans Question_boxCans-siteQ11">ダークブラウン</p>
+                    </div>
+                    <div class="Question_boxD">
+                        <div class="Question_boxD-box"></div>
+                        <p class="aicon5 Q11_D aicon_boxD">
+                            <img src="image/11-D.png" alt="aicon">
+                        </p>
+                        <div class="Question_boxD-selectBox"></div>
+                        <p class="siteQ11_boxD-ans">ホワイト<br><br>ブラック</p>
+                        <p class="siteQ11_boxD-ans Question_boxDans-siteQ11">ダークネイビー</p>
+                    </div>
+                </div>
+                <!-- Q11_Nextボタン -->
+                <div class="site_nextBtn">
+                    <div class="siteQ11_nextBtn">
+                        <a herf="" class="nextBtn2-Circle siteQ11_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn1-Circle siteQ11_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <div class="site_nextBtn_nomal">
+                    <div class="siteQ11_nextBtn">
+                        <div class="nextBtn-arrow siteQ11_nextBtn-arrow"></div>
+                        <a herf="" class="nextBtn-Circle1_nomal siteQ11_nextBtn-Circle" disabled></a>
+                        <a herf="" class="nextBtn-Circle2_nomal siteQ11_nextBtn-Circle" disabled></a>
+                    </div>
+                </div>
+                <!-- Q11_Backボタン -->
+                <div class="site_backBtn">
+                    <div class="siteQ11_backBtn">
+                        <div class="backBtn-arrow siteQ11_backBtn-arrow"></div>
+                        <a herf="" class="backBtn-Circle siteQ11_backBtn-Circle" disabled></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <div class="sitelogo">
+            <div class="sitelogo_info">
+                <div class="Question_logo">
+                    <img src="image/rogo.png" alt="rogo">
+                </div>
+            </div>
+        </div> -->
+
+        <section class="siteanswer">
+            <div class="siteAnswer_info ">
+                <p class="Answer_menu">about</p>
+                <p class="Answer_mainTitle">enomoさんの回答結果</p>
+                <div class="Answer_border"></div>
+                <!-- QR画像 -->
+                <p class="Answer_QRpic">
+                    <img src="image/sprsmr.png" alt="QR">
+                </p>
+                <p class="Answer_explain">
+                    このQRコードは、@cosmeTOKYO内にある<br>FlowerHouseのブース上で使用いたします。<br>バーコードリーダーにスキャンすることで、<br>お客のパーソナルカラーを空間上で診断する<br>サービスとなります。
+                </p>
+                <p class="Answer_explain2">この画面を保存して、保管してください。</p>
+                </p>
+                <!-- 保存ボタン -->
+                <div class="site_Btn">
+                    <!-- <div class="Answer_keepBtn"> -->
+                    <!-- <div class="keepBtn-arrow"></div> -->
+                    <!-- <a herf="" class="keepBtn-Circle_2" disabled></a>
+                        <a herf="" class="keepBtn-Circle_1" disabled></a> -->
+                    <a herf="" class="Answer_keepBtn">SAVE</a>
+                    <div class="Answer_outline"></div>
+                    <!-- </div> -->
+                </div>
+                <a herf="" class="Answer_keepBtn">SAVE</a>
+                <div class="Answer_outline"></div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src=" js/main.js">
+    </script>
+</body>
+
+</html>
