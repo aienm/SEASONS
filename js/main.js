@@ -214,7 +214,6 @@ $(".Question_boxD").click(function () {
 $(".siteQ1_nextBtn").click(function () {
     if (nextbtn_flag) {
         $(".siteQ1question_info").toggleClass("bg_none");
-        $(".Question_boxB-selectBox").none();
         $(".siteQ2").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
