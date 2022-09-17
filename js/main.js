@@ -87,6 +87,7 @@ var selectB_flag = false;
 var selectC_flag = false;
 var selectD_flag = false;
 var nextbtn_flag = false;
+var selectnum 
 
 
 
@@ -95,6 +96,7 @@ $(".Question_boxA").click(function () {
     $(".Question_boxA-selectBox").css("border-image", "linear-gradient(45deg,#61aad4,#58cd60,#e5d850,#e27fc9)");
     $(".Question_boxA-selectBox").css("border-image-slice", "1");
     selectA_flag = true;
+    selectnum ="A"
     if (selectB_flag) {
         $(".Question_boxB-selectBox").css('border', '');
         $(".Question_boxB-selectBox").css("border-image", '');
@@ -125,6 +127,7 @@ $(".Question_boxB").click(function () {
     $(".Question_boxB-selectBox").css("border-image", "linear-gradient(45deg,#61aad4,#58cd60,#e5d850,#e27fc9)");
     $(".Question_boxB-selectBox").css("border-image-slice", "1");
     selectB_flag = true;
+    selectnum ="B"
     if (selectA_flag) {
         $(".Question_boxA-selectBox").css('border', '');
         $(".Question_boxA-selectBox").css("border-image", '');
@@ -155,6 +158,7 @@ $(".Question_boxC").click(function () {
     $(".Question_boxC-selectBox").css("border-image", "linear-gradient(45deg,#61aad4,#58cd60, #e5d850, #e27fc9)");
     $(".Question_boxC-selectBox").css("border-image-slice", "1");
     selectC_flag = true;
+    selectnum ="C"
     if (selectA_flag) {
         $(".Question_boxA-selectBox").css('border', '');
         $(".Question_boxA-selectBox").css("border-image", '');
@@ -185,6 +189,7 @@ $(".Question_boxD").click(function () {
     $(".Question_boxD-selectBox").css("border-image", "linear-gradient(45deg,#61aad4,#58cd60,#e5d850,#e27fc9)");
     $(".Question_boxD-selectBox").css("border-image-slice", "1");
     selectD_flag = true;
+    selectnum ="D"
     if (selectA_flag) {
         $(".Question_boxA-selectBox").css('border', '');
         $(".Question_boxA-selectBox").css("border-image", '');
@@ -217,7 +222,9 @@ $(".siteQ1_nextBtn").click(function () {
         $(".siteQ2").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
-        
+        $(".Question_box"&selectnum&"-selectBox").css("border", "1.5px solid");
+        $(".Question_box"&selectnum&"-selectBox").css("border-image", "linear-gradient(45deg,#61aad4,#58cd60,#e5d850,#e27fc9)");
+        $(".Question_box"&selectnum&"-selectBox").css("border-image-slice", "1");
     };
 });
 
