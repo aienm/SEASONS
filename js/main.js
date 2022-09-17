@@ -97,12 +97,18 @@ $(".Question_boxA").click(function () {
     selectA_flag = true;
     if (selectB_flag) {
         $(".Question_boxB-selectBox").css('border', '');
+        $(".Question_boxB-selectBox").css("border-image", '');
+        $(".Question_boxB-selectBox").css("border-image-slice", '');
         selectB_flag = false;
     } else if (selectC_flag) {
         $(".Question_boxC-selectBox").css('border', '');
+        $(".Question_boxC-selectBox").css("border-image", '');
+        $(".Question_boxC-selectBox").css("border-image-slice", '');
         selectC_flag = false;
     } else if (selectD_flag) {
         $(".Question_boxD-selectBox").css('border', '');
+        $(".Question_boxD-selectBox").css("border-image", '');
+        $(".Question_boxD-selectBox").css("border-image-slice", '');
         selectD_flag = false;
     }
     if (selectA_flag) {
@@ -121,12 +127,18 @@ $(".Question_boxB").click(function () {
     selectB_flag = true;
     if (selectA_flag) {
         $(".Question_boxA-selectBox").css('border', '');
+        $(".Question_boxA-selectBox").css("border-image", '');
+        $(".Question_boxA-selectBox").css("border-image-slice", '');
         selectA_flag = false;
     } else if (selectC_flag) {
         $(".Question_boxC-selectBox").css('border', '');
+        $(".Question_boxC-selectBox").css("border-image", '');
+        $(".Question_boxC-selectBox").css("border-image-slice", '');
         selectC_flag = false;
     } else if (selectD_flag) {
         $(".Question_boxD-selectBox").css('border', '');
+        $(".Question_boxD-selectBox").css("border-image", '');
+        $(".Question_boxD-selectBox").css("border-image-slice", '');
         selectD_flag = false;
     }
     if (selectB_flag) {
@@ -145,12 +157,18 @@ $(".Question_boxC").click(function () {
     selectC_flag = true;
     if (selectA_flag) {
         $(".Question_boxA-selectBox").css('border', '');
+        $(".Question_boxA-selectBox").css("border-image", '');
+        $(".Question_boxA-selectBox").css("border-image-slice", '');
         selectA_flag = false;
     } else if (selectB_flag) {
         $(".Question_boxB-selectBox").css('border', '');
+        $(".Question_boxB-selectBox").css("border-image", '');
+        $(".Question_boxB-selectBox").css("border-image-slice", '');
         selectB_flag = false;
     } else if (selectD_flag) {
         $(".Question_boxD-selectBox").css('border', '');
+        $(".Question_boxD-selectBox").css("border-image", '');
+        $(".Question_boxD-selectBox").css("border-image-slice", '');
         selectD_flag = false;
     }
     if (selectC_flag) {
@@ -169,12 +187,18 @@ $(".Question_boxD").click(function () {
     selectD_flag = true;
     if (selectA_flag) {
         $(".Question_boxA-selectBox").css('border', '');
+        $(".Question_boxA-selectBox").css("border-image", '');
+        $(".Question_boxA-selectBox").css("border-image-slice", '');
         selectA_flag = false;
     } else if (selectB_flag) {
         $(".Question_boxB-selectBox").css('border', '');
+        $(".Question_boxB-selectBox").css("border-image", '');
+        $(".Question_boxB-selectBox").css("border-image-slice", '');
         selectB_flag = false;
     } else if (selectC_flag) {
         $(".Question_boxC-selectBox").css('border', '');
+        $(".Question_boxC-selectBox").css("border-image", '');
+        $(".Question_boxC-selectBox").css("border-image-slice", '');
         selectC_flag = false;
     }
     if (selectD_flag) {
