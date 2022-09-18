@@ -222,9 +222,9 @@ $(".siteQ1_nextBtn").click(function () {
         $(".siteQ2").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
-        $(".Question_box"&selectnum&"-selectBox").css("border", "1.5px solid");
-        $(".Question_box"&selectnum&"-selectBox").css("border-image", "linear-gradient(45deg,#61aad4,#58cd60,#e5d850,#e27fc9)");
-        $(".Question_box"&selectnum&"-selectBox").css("border-image-slice", "1");
+        $(".Question_box"& selectnum &"-selectBox").css("border", '');
+        $(".Question_box"& selectnum &"-selectBox").css("border-image", '');
+        $(".Question_box"& selectnum &"-selectBox").css("border-image-slice",  '');
     };
 });
 
