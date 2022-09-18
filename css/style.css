@@ -19,9 +19,6 @@
 /*================================
 TOP
  =============================== */
-/* .siteTop {
-} */
-
 .container {
     position: relative;
     background-color: rgba(255, 255, 255, 0.1);
@@ -698,8 +695,8 @@ Question(common)
     color: rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     border: solid 1px;
-    outline: solid 1px;
-    outline-offset: 3px;
+/*     outline: solid 1px;
+    outline-offset: 3px; */
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.07);
     margin-left: 113px;
@@ -716,8 +713,8 @@ Question(common)
     color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     border: solid 1px;
-    outline: solid 1px;
-    outline-offset: 3px;
+/*     outline: solid 1px; */
+/*     outline-offset: 3px; */
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.07);
     margin-left: 113px;
@@ -731,6 +728,7 @@ Question(common)
     width: 45px;
     height: 45px;
     transform: translate(-50%, -50%);
+    color: rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     outline-offset: 3px;
     box-sizing: border-box;
