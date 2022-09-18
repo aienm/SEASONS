@@ -225,18 +225,6 @@ $(".siteQ1_nextBtn").click(function () {
         $(".Question_box"+ selectnum +"-selectBox").css('border', '');
         $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
         $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
-        //$(".Question_boxA-selectBox").css('border', '');
-        //$(".Question_boxA-selectBox").css("border-image", '');
-        //$(".Question_boxA-selectBox").css("border-image-slice", '');
-        //$(".Question_boxB-selectBox").css('border', '');
-        //$(".Question_boxB-selectBox").css("border-image", '');
-        //$(".Question_boxB-selectBox").css("border-image-slice", '');
-        //$(".Question_boxC-selectBox").css('border', '');
-        //$(".Question_boxC-selectBox").css("border-image", '');
-        //$(".Question_boxC-selectBox").css("border-image-slice", '');
-        //$(".Question_boxD-selectBox").css('border', '');
-        //$(".Question_boxD-selectBox").css("border-image", '');
-        //$(".Question_boxD-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -246,18 +234,9 @@ $(".siteQ2_nextBtn").click(function () {
         $(".siteQ3").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
-        $(".Question_boxA-selectBox").css('border', '');
-        $(".Question_boxA-selectBox").css("border-image", '');
-        $(".Question_boxA-selectBox").css("border-image-slice", '');
-        $(".Question_boxB-selectBox").css('border', '');
-        $(".Question_boxB-selectBox").css("border-image", '');
-        $(".Question_boxB-selectBox").css("border-image-slice", '');
-        $(".Question_boxC-selectBox").css('border', '');
-        $(".Question_boxC-selectBox").css("border-image", '');
-        $(".Question_boxC-selectBox").css("border-image-slice", '');
-        $(".Question_boxD-selectBox").css('border', '');
-        $(".Question_boxD-selectBox").css("border-image", '');
-        $(".Question_boxD-selectBox").css("border-image-slice", '');
+        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -267,6 +246,9 @@ $(".siteQ3_nextBtn").click(function () {
         $(".siteQ4").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
+        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -276,6 +258,9 @@ $(".siteQ4_nextBtn").click(function () {
         $(".siteQ5").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
+        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -285,6 +270,9 @@ $(".siteQ5_nextBtn").click(function () {
         $(".siteQ6").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
+        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -294,6 +282,9 @@ $(".siteQ6_nextBtn").click(function () {
         $(".siteQ7").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
+        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
     };
 });
 $(".siteQ7_nextBtn").click(function () {
@@ -302,6 +293,9 @@ $(".siteQ7_nextBtn").click(function () {
         $(".siteQ8").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
+        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -311,6 +305,9 @@ $(".siteQ8_nextBtn").click(function () {
         $(".siteQ9").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
+        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -320,6 +317,9 @@ $(".siteQ9_nextBtn").click(function () {
         $(".siteQ10").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
+        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -329,6 +329,9 @@ $(".siteQ10_nextBtn").click(function () {
         $(".siteQ11").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
+        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -345,6 +348,9 @@ $(".siteQ11_nextBtn").click(function () {
         $(".site_nextBtn").css('display', 'none');
         $(".site_nextBtn_nomal").toggleClass("bg_none");
         $(".siteTop").css('background-color', 'rgba(0, 0, 0, 0.7)');
+        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
+        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
     };
 });
 
