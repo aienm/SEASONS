@@ -353,6 +353,7 @@ $(".siteQ11_nextBtn").click(function () {
         $(".Question_box"+ selectnum +"-selectBox").css('border', '');
         $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
         $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
+        $(".Answer_mainTitle").append(textval);
     };
 });
 
