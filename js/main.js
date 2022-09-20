@@ -77,7 +77,6 @@ $(function () {
         if (NameBtn_flag) {
             $(".siteName_info").toggleClass("bg_none");
             var nameval = $('.Name_textbox').val();
-            console.log(nameval);
         }
     });
 });
@@ -353,7 +352,6 @@ $(".siteQ11_nextBtn").click(function () {
         $(".Question_box"+ selectnum +"-selectBox").css('border', '');
         $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
         $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
-        $(".Answer_mainTitle").append(nameval);
     };
 });
 
