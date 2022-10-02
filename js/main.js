@@ -76,7 +76,32 @@ $(function () {
     $(".Name_btn").on("click", function () {
         if (NameBtn_flag) {
             $(".siteName_info").toggleClass("bg_none");
-            var nameval = $('.Name_textbox').val();
+            var nametext = $('.Name_textbox').val();
+            
+            $(".siteQ11_nextBtn").click(function () {
+                if (nextbtn_flag) {
+                    $(".siteQ11question_info").toggleClass("bg_none");
+                    $(".sitelogo_info").toggleClass("bg_none");
+                    $(".nextBtn-arrow").toggleClass("bg_none");
+                    $(".nextBtn-Circle").toggleClass("bg_none");
+                    $(".backBtn-arrow").toggleClass("bg_none");
+                    $(".backBtn-Circle").toggleClass("bg_none");
+                    $(".siteanswer").show();
+                    $('mouseover', select_reset);
+                    $(".site_nextBtn").css('display', 'none');
+                    $(".site_nextBtn_nomal").toggleClass("bg_none");
+                    $(".siteTop").css('background-color', 'rgba(0, 0, 0, 0.7)');
+                    $(".Question_box"+ selectnum +"-selectBox").css('border', '');
+                    $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
+                    $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
+                    // 書き換えたいHTMLのIDを変数に代入
+                    var id = 'Answer_mainTitle';
+                    // 変数をセレクタに設定し、HTMLのテキストを書き換える
+                    var $elm = $('#' + id).text(nametext);
+                    $('#' + id).append('さんの回答結果');
+                
+                };
+            });
         }
     });
 });
@@ -335,26 +360,6 @@ $(".siteQ10_nextBtn").click(function () {
         $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
     };
 });
-
-$(".siteQ11_nextBtn").click(function () {
-    if (nextbtn_flag) {
-        $(".siteQ11question_info").toggleClass("bg_none");
-        $(".sitelogo_info").toggleClass("bg_none");
-        $(".nextBtn-arrow").toggleClass("bg_none");
-        $(".nextBtn-Circle").toggleClass("bg_none");
-        $(".backBtn-arrow").toggleClass("bg_none");
-        $(".backBtn-Circle").toggleClass("bg_none");
-        $(".siteanswer").show();
-        $('mouseover', select_reset);
-        $(".site_nextBtn").css('display', 'none');
-        $(".site_nextBtn_nomal").toggleClass("bg_none");
-        $(".siteTop").css('background-color', 'rgba(0, 0, 0, 0.7)');
-        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
-    };
-});
-
 
 
 function select_reset() {
