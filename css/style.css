@@ -1450,8 +1450,7 @@ p.Answer_QRpic img {
 .Answer_keepBtn {
     position: absolute;
     color: #fff;
-    fontsize: 10px;
-    font-style: normal
+    font-style: normal;
     letter-spacing: 0.15em;
     display: block;
     padding: 15px 130px;
