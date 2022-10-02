@@ -1389,7 +1389,7 @@ siteanswer
     letter-spacing: 0.05em;
 }
 
-.Answer_mainTitle {
+#Answer_mainTitle {
     color: #fff;
     position: absolute;
     top: 130px;
