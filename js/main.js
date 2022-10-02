@@ -97,8 +97,8 @@ $(function () {
                     // 書き換えたいHTMLのIDを変数に代入
                     var id = 'Answer_mainTitle';
                     // 変数をセレクタに設定し、HTMLのテキストを書き換える
-                    var $elm = $('.' + id).text(nametext);
-                    $('.' + id).append('さんの回答結果');
+                    var $elm = $('#' + id).text(nametext);
+                    $('#' + id).append('さんの回答結果');
                 
                 };
             });
