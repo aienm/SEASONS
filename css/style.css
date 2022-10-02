@@ -1450,6 +1450,8 @@ p.Answer_QRpic img {
 .Answer_keepBtn {
     position: absolute;
     color: #fff;
+    font-family: futura-pt, sans-serif;
+    font-weight: 390;
     font-style: normal;
     letter-spacing: 0.15em;
     display: block;
