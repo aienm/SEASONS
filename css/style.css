@@ -45,6 +45,7 @@ TOP
 
 .siteTop_info {
     color: #222;
+    user-select: none;
 }
 
 .Top_subTitle {
