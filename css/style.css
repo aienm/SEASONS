@@ -154,7 +154,6 @@ CONSEPT
     width: 100%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.7);
-    user-select: none;
 }
 
 .Consept_menu {
@@ -466,10 +465,6 @@ NAME
 /*================================
 Question(common)
  =============================== */
-/* .siteQ1 {
-    display: none;
-} */
-
 .siteQuestion_info {
     position: absolute;
     top: 0px;
@@ -490,7 +485,6 @@ Question(common)
     letter-spacing: 0.15em;
     font-size: 30px;
     text-align: center;
- 　　　　　　user-select: none;
 }
 
 .Question_text {
@@ -504,7 +498,6 @@ Question(common)
     margin-top: 10px;
     letter-spacing: 0.05em;
     padding-left: 5px;
-    user-select: none;
 }
 
 .Question_progress {
@@ -519,7 +512,6 @@ Question(common)
     letter-spacing: 0.05em;
     font-size: 17px;
     margin-left: 100px;
-    user-select: none;
 }
 
 .Question_border {
@@ -734,7 +726,6 @@ Question(common)
     color: rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     border: solid 1px;
-/*     outline-offset: 3px; */
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.07);
     margin-left: 113px;
@@ -779,7 +770,6 @@ Question(common)
     width: 100%;
     height: 100%;
     border-radius: inherit;
-    /* background: linear-gradient(90deg, #e14fad 0%, #f9d423 100%); */
     background-color: rgb(185, 185, 185);
     content: "";
     z-index: 6;
