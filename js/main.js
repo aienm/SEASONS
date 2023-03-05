@@ -76,6 +76,12 @@ $(function () {
         if (NameBtn_flag) {
             $(".siteName_info").toggleClass("bg_none");
             var nametext = $('#Nametext').val();
+            console.log(nametext);
+            // 書き換えたいHTMLのIDを変数に代入
+            var id = 'Answer_mainTitle';
+            // 変数をセレクタに設定し、HTMLのテキストを書き換える
+            var $elm = $('#' + id).text(nametext);
+            $('#' + id).append('さんの回答結果');
 
             $(".siteQ11_nextBtn").click(function () {
                 if (nextbtn_flag) {
@@ -118,8 +124,6 @@ var autumn = 0;
 var winter = 0;
 var images = [];
 var randImg;
-
-
 
 $(".Question_boxA").click(function () {
     $(".Question_boxA-selectBox").css("border", "1.5px solid");
