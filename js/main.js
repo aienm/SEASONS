@@ -75,7 +75,7 @@ $(function () {
     $(".Name_btn").on("click", function () {
         if (NameBtn_flag) {
             $(".siteName_info").toggleClass("bg_none");
-            var nametext = $('#Nametextbox').val();
+            var nametext = $('#Nametext').val();
 
             $(".siteQ11_nextBtn").click(function () {
                 if (nextbtn_flag) {
