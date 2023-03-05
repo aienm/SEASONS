@@ -76,33 +76,32 @@ $(function () {
         if (NameBtn_flag) {
             $(".siteName_info").toggleClass("bg_none");
             var nametext = $('.Name_textbox').val();
+
+            $(".siteQ11_nextBtn").click(function () {
+                if (nextbtn_flag) {
+                    $(".siteQ11question_info").toggleClass("bg_none");
+                    $(".sitelogo_info").toggleClass("bg_none");
+                    $(".nextBtn-arrow").toggleClass("bg_none");
+                    $(".nextBtn-Circle").toggleClass("bg_none");
+                    $(".backBtn-arrow").toggleClass("bg_none");
+                    $(".backBtn-Circle").toggleClass("bg_none");
+                    $(".siteanswer").show();
+                    $('mouseover', select_reset);
+                    $(".site_nextBtn").css('display', 'none');
+                    $(".site_nextBtn_nomal").toggleClass("bg_none");
+                    $(".siteTop").css('background-color', 'rgba(0, 0, 0, 0.7)');
+                    $(".Question_box" + selectnum + "-selectBox").css('border', '');
+                    $(".Question_box" + selectnum + "-selectBox").css("border-image", '');
+                    $(".Question_box" + selectnum + "-selectBox").css("border-image-slice", '');
+                    // 書き換えたいHTMLのIDを変数に代入
+                    var id = 'Answer_mainTitle';
+                    // 変数をセレクタに設定し、HTMLのテキストを書き換える
+                    var $elm = $('#' + id).text(nametext);
+                    $('#' + id).append('さんの回答結果');
+                };
+            });
         }
     });
-});
-            
-$(".siteQ11_nextBtn").click(function () {
-    if (nextbtn_flag) {
-        $(".siteQ11question_info").toggleClass("bg_none");
-        $(".sitelogo_info").toggleClass("bg_none");
-        $(".nextBtn-arrow").toggleClass("bg_none");
-        $(".nextBtn-Circle").toggleClass("bg_none");
-        $(".backBtn-arrow").toggleClass("bg_none");
-        $(".backBtn-Circle").toggleClass("bg_none");
-        $(".siteanswer").show();
-        $('mouseover', select_reset);
-        $(".site_nextBtn").css('display', 'none');
-        $(".site_nextBtn_nomal").toggleClass("bg_none");
-        $(".siteTop").css('background-color', 'rgba(0, 0, 0, 0.7)');
-        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
-        // 書き換えたいHTMLのIDを変数に代入
-        var id = 'Answer_mainTitle';
-        // 変数をセレクタに設定し、HTMLのテキストを書き換える
-        var $elm = $('#' + id).text(nametext);
-        $('#' + id).append('さんの回答結果');
-        console.log(id);
-    };       
 });
 
 
@@ -112,7 +111,7 @@ var selectB_flag = false;
 var selectC_flag = false;
 var selectD_flag = false;
 var nextbtn_flag = false;
-var selectnum
+var selectnum;
 var spling = 0;
 var summer = 0;
 var autumn = 0;
@@ -127,7 +126,7 @@ $(".Question_boxA").click(function () {
     $(".Question_boxA-selectBox").css("border-image", "linear-gradient(45deg,#61aad4,#58cd60,#e5d850,#e27fc9)");
     $(".Question_boxA-selectBox").css("border-image-slice", "1");
     selectA_flag = true;
-    selectnum ="A"
+    selectnum = "A"
     if (selectB_flag) {
         $(".Question_boxB-selectBox").css('border', '');
         $(".Question_boxB-selectBox").css("border-image", '');
@@ -158,7 +157,7 @@ $(".Question_boxB").click(function () {
     $(".Question_boxB-selectBox").css("border-image", "linear-gradient(45deg,#61aad4,#58cd60,#e5d850,#e27fc9)");
     $(".Question_boxB-selectBox").css("border-image-slice", "1");
     selectB_flag = true;
-    selectnum ="B"
+    selectnum = "B"
     if (selectA_flag) {
         $(".Question_boxA-selectBox").css('border', '');
         $(".Question_boxA-selectBox").css("border-image", '');
@@ -189,7 +188,7 @@ $(".Question_boxC").click(function () {
     $(".Question_boxC-selectBox").css("border-image", "linear-gradient(45deg,#61aad4,#58cd60, #e5d850, #e27fc9)");
     $(".Question_boxC-selectBox").css("border-image-slice", "1");
     selectC_flag = true;
-    selectnum ="C"
+    selectnum = "C"
     if (selectA_flag) {
         $(".Question_boxA-selectBox").css('border', '');
         $(".Question_boxA-selectBox").css("border-image", '');
@@ -220,7 +219,7 @@ $(".Question_boxD").click(function () {
     $(".Question_boxD-selectBox").css("border-image", "linear-gradient(45deg,#61aad4,#58cd60,#e5d850,#e27fc9)");
     $(".Question_boxD-selectBox").css("border-image-slice", "1");
     selectD_flag = true;
-    selectnum ="D"
+    selectnum = "D"
     if (selectA_flag) {
         $(".Question_boxA-selectBox").css('border', '');
         $(".Question_boxA-selectBox").css("border-image", '');
@@ -262,9 +261,9 @@ $(".siteQ1_nextBtn").click(function () {
         $(".siteQ2").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
-        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
+        $(".Question_box" + selectnum + "-selectBox").css('border', '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image", '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -283,9 +282,9 @@ $(".siteQ2_nextBtn").click(function () {
         $(".siteQ3").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
-        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
+        $(".Question_box" + selectnum + "-selectBox").css('border', '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image", '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -304,9 +303,9 @@ $(".siteQ3_nextBtn").click(function () {
         $(".siteQ4").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
-        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
+        $(".Question_box" + selectnum + "-selectBox").css('border', '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image", '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -325,9 +324,9 @@ $(".siteQ4_nextBtn").click(function () {
         $(".siteQ5").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
-        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
+        $(".Question_box" + selectnum + "-selectBox").css('border', '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image", '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -346,9 +345,9 @@ $(".siteQ5_nextBtn").click(function () {
         $(".siteQ6").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
-        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
+        $(".Question_box" + selectnum + "-selectBox").css('border', '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image", '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -367,9 +366,9 @@ $(".siteQ6_nextBtn").click(function () {
         $(".siteQ7").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
-        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
+        $(".Question_box" + selectnum + "-selectBox").css('border', '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image", '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image-slice", '');
     };
 });
 $(".siteQ7_nextBtn").click(function () {
@@ -387,9 +386,9 @@ $(".siteQ7_nextBtn").click(function () {
         $(".siteQ8").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
-        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
+        $(".Question_box" + selectnum + "-selectBox").css('border', '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image", '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -408,9 +407,9 @@ $(".siteQ8_nextBtn").click(function () {
         $(".siteQ9").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
-        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
+        $(".Question_box" + selectnum + "-selectBox").css('border', '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image", '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -429,9 +428,9 @@ $(".siteQ9_nextBtn").click(function () {
         $(".siteQ10").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
-        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
+        $(".Question_box" + selectnum + "-selectBox").css('border', '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image", '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -450,9 +449,9 @@ $(".siteQ10_nextBtn").click(function () {
         $(".siteQ11").show();
         $('mouseover', select_reset);
         $(".site_nextBtn").css('display', 'none');
-        $(".Question_box"+ selectnum +"-selectBox").css('border', '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image", '');
-        $(".Question_box"+ selectnum +"-selectBox").css("border-image-slice", '');
+        $(".Question_box" + selectnum + "-selectBox").css('border', '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image", '');
+        $(".Question_box" + selectnum + "-selectBox").css("border-image-slice", '');
     };
 });
 
@@ -533,7 +532,7 @@ $(".siteQ11_nextBtn").click(function () {
             "image/wtrfal.png",
         ];
         var randImg = images[Math.floor(Math.random() * images.length)];
-        $('.random').attr('src', randImg); 
+        $('.random').attr('src', randImg);
     } else if (spling == 1 && summer == 1 && autumn == 1) {
         console.log("冬と春or夏or秋");
         var images = [
@@ -551,7 +550,7 @@ $(".siteQ11_nextBtn").click(function () {
             "image/falwtr.png",
         ];
         var randImg = images[Math.floor(Math.random() * images.length)];
-        $('.random').attr('src', randImg);  
+        $('.random').attr('src', randImg);
     } else if (spling == 1 && autumn == 1 && winter == 1) {
         console.log("夏と春or秋or冬");
         var images = [
@@ -569,7 +568,7 @@ $(".siteQ11_nextBtn").click(function () {
             "image/sprwtr.png",
         ];
         var randImg = images[Math.floor(Math.random() * images.length)];
-        $('.random').attr('src', randImg);      
+        $('.random').attr('src', randImg);
     } else if (spling == 6 && summer == 2 && autumn == 2 && winter == 1) {
         console.log("春と夏or秋");
         var images = [
@@ -577,7 +576,7 @@ $(".siteQ11_nextBtn").click(function () {
             "image/sprfal.png",
         ];
         var randImg = images[Math.floor(Math.random() * images.length)];
-        $('.random').attr('src', randImg);   
+        $('.random').attr('src', randImg);
     } else if (spling == 6 && summer == 1 && autumn == 2 && winter == 2) {
         console.log("春と秋or冬");
         var images = [
@@ -594,7 +593,7 @@ $(".siteQ11_nextBtn").click(function () {
         ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
-        
+
     } else if (spling == 2 && summer == 6 && autumn == 2 && winter == 1) {
         console.log("夏と春or秋");
         var images = [
@@ -603,7 +602,7 @@ $(".siteQ11_nextBtn").click(function () {
         ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
-        
+
     } else if (spling == 2 && summer == 6 && autumn == 1 && winter == 2) {
         console.log("夏と春or冬");
         var images = [
@@ -619,7 +618,7 @@ $(".siteQ11_nextBtn").click(function () {
             "image/sumwtr.png",
         ];
         var randImg = images[Math.floor(Math.random() * images.length)];
-        $('.random').attr('src', randImg); 
+        $('.random').attr('src', randImg);
     } else if (spling == 2 && summer == 2 && autumn == 6 && winter == 1) {
         console.log("秋と春or夏");
         var images = [
@@ -627,7 +626,7 @@ $(".siteQ11_nextBtn").click(function () {
             "image/falsum.png",
         ];
         var randImg = images[Math.floor(Math.random() * images.length)];
-        $('.random').attr('src', randImg);  
+        $('.random').attr('src', randImg);
     } else if (spling == 2 && summer == 1 && autumn == 6 && winter == 2) {
         console.log("秋と春or冬");
         var images = [
@@ -676,7 +675,7 @@ $(".siteQ11_nextBtn").click(function () {
         $(".Answer_QRpic").html('<img src="image/sprfal.png" alt="QR">');
     } else if (spling == 4 && winter == 4) {
         console.log("春と冬");
-        $(".Answer_QRpic").html('<img src="image/sprwtr.png" alt="QR">');  
+        $(".Answer_QRpic").html('<img src="image/sprwtr.png" alt="QR">');
     } else if (summer == 4 && autumn == 4) {
         console.log("夏と秋");
         $(".Answer_QRpic").html('<img src="image/smrfal.png" alt="QR">');
@@ -712,7 +711,7 @@ $(".siteQ11_nextBtn").click(function () {
                 $(".Answer_QRpic").html('<img src="image/sprsmr.png" alt="QR">');
             } else if (autumn == val2) {
                 console.log("春と秋");
-                $(".Answer_QRpic").html('<img src="image/sprfal.png" alt="QR">');           
+                $(".Answer_QRpic").html('<img src="image/sprfal.png" alt="QR">');
             } else if (winter == val2) {
                 console.log("春と冬");
                 $(".Answer_QRpic").html('<img src="image/sprwtr.png" alt="QR">');
@@ -724,16 +723,16 @@ $(".siteQ11_nextBtn").click(function () {
                 $(".Answer_QRpic").html('<img src="image/smrspr.png" alt="QR">');
             } else if (autumn == val2) {
                 console.log("夏と秋");
-                $(".Answer_QRpic").html('<img src="image/smrfal.png" alt="QR">');   
+                $(".Answer_QRpic").html('<img src="image/smrfal.png" alt="QR">');
             } else if (winter == val2) {
                 console.log("夏と冬");
-                $(".Answer_QRpic").html('<img src="image/smrwtr.png" alt="QR">');           
+                $(".Answer_QRpic").html('<img src="image/smrwtr.png" alt="QR">');
             };
         } else if (autumn == val) {
             var val2 = Math.max(spling, summer, winter);
             if (spling == val2) {
                 console.log("秋と春");
-                $(".Answer_QRpic").html('<img src="image/falspr.png" alt="QR">');          
+                $(".Answer_QRpic").html('<img src="image/falspr.png" alt="QR">');
             } else if (summer == val2) {
                 console.log("秋と夏");
                 $(".Answer_QRpic").html('<img src="image/falsmr.png" alt="QR">');
@@ -745,10 +744,10 @@ $(".siteQ11_nextBtn").click(function () {
             var val2 = Math.max(spling, summer, autumn);
             if (spling == val2) {
                 console.log("冬と春");
-                $(".Answer_QRpic").html('<img src="image/wtrspr.png" alt="QR">');  
+                $(".Answer_QRpic").html('<img src="image/wtrspr.png" alt="QR">');
             } else if (summer == val2) {
                 console.log("冬と夏");
-                $(".Answer_QRpic").html('<img src="image/wtrsmr.png" alt="QR">');  
+                $(".Answer_QRpic").html('<img src="image/wtrsmr.png" alt="QR">');
             } else if (autumn == val2) {
                 console.log("冬と秋");
                 $(".Answer_QRpic").html('<img src="image/wtrfal.png" alt="QR">');
@@ -771,4 +770,4 @@ function select_reset() {
     selectC_flag = false;
     selectD_flag = false;
     nextbtn_flag = false;
-}
+};
