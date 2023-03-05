@@ -1454,6 +1454,7 @@ p.Answer_QRpic img {
     line-height: 1.5em;
     width: 300px;
     transform: translate(-50%, -50%);
+    padding-top: 80px;
 }
 
 
