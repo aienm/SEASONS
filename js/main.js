@@ -98,6 +98,7 @@ $(function () {
                     // 変数をセレクタに設定し、HTMLのテキストを書き換える
                     var $elm = $('#' + id).text(nametext);
                     $('#' + id).append('さんの回答結果');
+                    console.log(('#' + id).append('さんの回答結果'));
                 
                 };
             });
