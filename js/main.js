@@ -76,6 +76,7 @@ $(function () {
         if (NameBtn_flag) {
             $(".siteName_info").toggleClass("bg_none");
             var nametext = $('.Name_textbox').val();
+            console.log(nametext);
 
             $(".siteQ11_nextBtn").click(function () {
                 if (nextbtn_flag) {
