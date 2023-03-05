@@ -1,4 +1,3 @@
-
 // NEXTbtn押したらTopページ非表示
 $(function () {
     $(".Top_outline").click(function () {
@@ -496,7 +495,7 @@ $(".siteQ11_nextBtn").click(function () {
             'image/falspr.png',
             'image/smrfal.png',
             'image/falsmr.png',
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
     } else if (spling == 3 && summer == 3 && winter == 3) {
@@ -508,7 +507,7 @@ $(".siteQ11_nextBtn").click(function () {
             "image/wtrspr.png",
             "image/smrwtr.png",
             "image/wtrsmr.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
     } else if (spling == 3 && autumn == 3 && winter == 3) {
@@ -520,7 +519,7 @@ $(".siteQ11_nextBtn").click(function () {
             "image/wtrspr.png",
             "image/falwtr.png",
             "image/wtrfal.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
     } else if (summer == 3 && autumn == 3 && winter == 3) {
@@ -532,7 +531,7 @@ $(".siteQ11_nextBtn").click(function () {
             "image/wtrsmr.png",
             "image/falwtr.png",
             "image/wtrfal.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg); 
     } else if (spling == 1 && summer == 1 && autumn == 1) {
@@ -541,7 +540,7 @@ $(".siteQ11_nextBtn").click(function () {
             "image/wtrspr.png",
             "image/wtrsmr.png",
             "image/wtrfal.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
     } else if (spling == 1 && summer == 1 && winter == 1) {
@@ -550,7 +549,7 @@ $(".siteQ11_nextBtn").click(function () {
             "image/falspr.png",
             "image/falsmr.png",
             "image/falwtr.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);  
     } else if (spling == 1 && autumn == 1 && winter == 1) {
@@ -559,7 +558,7 @@ $(".siteQ11_nextBtn").click(function () {
             "image/smrspr.png",
             "image/smrfal.png",
             "image/smrwtr.png",
-        ]；     
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
     } else if (summer == 1 && autumn == 1 && winter == 1) {
@@ -568,7 +567,7 @@ $(".siteQ11_nextBtn").click(function () {
             "image/sprsum.png",
             "image/sprfal.png",
             "image/sprwtr.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);      
     } else if (spling == 6 && summer == 2 && autumn == 2 && winter == 1) {
@@ -576,7 +575,7 @@ $(".siteQ11_nextBtn").click(function () {
         var images = [
             "image/sprsum.png",
             "image/sprfal.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);   
     } else if (spling == 6 && summer == 1 && autumn == 2 && winter == 2) {
@@ -584,7 +583,7 @@ $(".siteQ11_nextBtn").click(function () {
         var images = [
             "image/sprfal.png",
             "image/sprwtr.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
     } else if (spling == 6 && summer == 2 && autumn == 1 && winter == 2) {
@@ -592,7 +591,7 @@ $(".siteQ11_nextBtn").click(function () {
         var images = [
             "image/sprsum.png",
             "image/sprwtr.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
         
@@ -601,7 +600,7 @@ $(".siteQ11_nextBtn").click(function () {
         var images = [
             "image/sumspr.png",
             "image/sumfal.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
         
@@ -610,7 +609,7 @@ $(".siteQ11_nextBtn").click(function () {
         var images = [
             "image/sumspr.png",
             "image/sumwtr.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
     } else if (spling == 1 && summer == 6 && autumn == 2 && winter == 2) {
@@ -618,7 +617,7 @@ $(".siteQ11_nextBtn").click(function () {
         var images = [
             "image/sumfal.png",
             "image/sumwtr.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg); 
     } else if (spling == 2 && summer == 2 && autumn == 6 && winter == 1) {
@@ -626,7 +625,7 @@ $(".siteQ11_nextBtn").click(function () {
         var images = [
             "image/falspr.png",
             "image/falsum.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);  
     } else if (spling == 2 && summer == 1 && autumn == 6 && winter == 2) {
@@ -634,7 +633,7 @@ $(".siteQ11_nextBtn").click(function () {
         var images = [
             "image/falspr.png",
             "image/falwtr.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
     } else if (spling == 1 && summer == 2 && autumn == 6 && winter == 2) {
@@ -642,7 +641,7 @@ $(".siteQ11_nextBtn").click(function () {
         var images = [
             "image/falsum.png",
             "image/falwtr.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
     } else if (spling == 2 && summer == 2 && autumn == 1 && winter == 6) {
@@ -650,8 +649,7 @@ $(".siteQ11_nextBtn").click(function () {
         var images = [
             "image/wtrspr.png",
             "image/wtrsum.png",
-        ]；
-        
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
     } else if (spling == 2 && summer == 1 && autumn == 2 && winter == 6) {
@@ -659,7 +657,7 @@ $(".siteQ11_nextBtn").click(function () {
         var images = [
             "image/wtrspr.png",
             "image/wtrfal.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
     } else if (spling == 1 && summer == 2 && autumn == 2 && winter == 6) {
@@ -667,7 +665,7 @@ $(".siteQ11_nextBtn").click(function () {
         var images = [
             "image/wtrsum.png",
             "image/wtrfal.png",
-        ]；
+        ];
         var randImg = images[Math.floor(Math.random() * images.length)];
         $('.random').attr('src', randImg);
     } else if (spling == 4 && summer == 4) {
