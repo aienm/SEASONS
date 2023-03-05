@@ -76,7 +76,6 @@ $(function () {
         if (NameBtn_flag) {
             $(".siteName_info").toggleClass("bg_none");
             var nametext = $('.Name_textbox').val();
-            console.log(nametext);
 
             $(".siteQ11_nextBtn").click(function () {
                 if (nextbtn_flag) {
@@ -94,6 +93,7 @@ $(function () {
                     $(".Question_box" + selectnum + "-selectBox").css('border', '');
                     $(".Question_box" + selectnum + "-selectBox").css("border-image", '');
                     $(".Question_box" + selectnum + "-selectBox").css("border-image-slice", '');
+                    console.log(nametext);
                     // 書き換えたいHTMLのIDを変数に代入
                     var id = 'Answer_mainTitle';
                     // 変数をセレクタに設定し、HTMLのテキストを書き換える
