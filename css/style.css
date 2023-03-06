@@ -1203,8 +1203,6 @@ SelectBox(common)
 
 .Question_boxBans-siteQ7 {
     transform: translate(-165%, 0%);
-    width: 120px;
-    height: 0px;
 }
 
 .Question_boxDans-siteQ7 {
@@ -1212,8 +1210,9 @@ SelectBox(common)
 }
 
 .Question_boxCans-siteQ7 {
-    width: 300px;
     font-size: 12.5px;
+    width: 120px;
+    height: 0px;
 }
 
 
